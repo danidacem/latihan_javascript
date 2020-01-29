@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>
+            Chapter 1: Getting started with JavaScript
+        </title>
+        <script>
+            console.log("hello, world");
+            var foo = "bar";
+            console.log(foo);
+
+            var thisVar = 'first value';
+            var thatVar = 'second value';
+            console.log("thisVar:",  thisVar, "and thatVar:", thatVar);
+
+            var var1 ="dani", var2 = "javascript";
+            console.log("saya %s dan sedang belajar %s sekarang", var1, var2);
+
+            console.log("saya", var1, "dan sedang belajar", var2, "sekarang");
+
+            var obj = {
+                Email: '',
+                'Groups': {},
+                'Id': 33,
+                'IsHiddenInUI': false,
+                'IsSiteAdmin': false,
+                'LoginName': 'i :0#.w|virtualdomain\\user2',
+                'PrincipalType': 1,
+                'Title': 'user2'
+            };
+            console.log(obj);
+
+            var profilku = {
+                nama: 'dani',
+                alamat: 'jogja',
+                pekerjaan: 'mahasiswa',
+                hobi: 'game'
+            };
+            profilku.nama = 'aku';
+            console.log(profilku);
+
+            var martabak = {
+                kacang: '1 kg',
+                coklat: '10 ml',
+                keju: '10 ml',
+                susu: '10 ml',
+                tepung: '20 gr',
+            };
+            console.log(martabak);
+            var message = 'hai';
+            alert(message);
+
+            console.log('keluar');
+
+            var nama = prompt('siapa nama anda??');
+            var alamat = prompt('dimana alamat anda??');
+            var pekerjaan = prompt('apa pekerjaan anda??');
+            var hobi = prompt('apa hobi anda??');
+
+            profilku.nama = nama;
+            profilku.alamat = alamat;
+            profilku.pekerjaan = pekerjaan;
+            profilku.hobi = hobi;
+            console.log(profilku);
+
+            if(confirm('apakah anda ingin keluar')){
+                console.log('selamat jalan');
+            }else{
+                console.log('anda tidak mau keluar');
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
