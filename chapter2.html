@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>chapter2 javascript variables
+
+        </title>
+        <script>
+        var myVariable = "this is a my variable";
+        var number1 = 5;
+        console.log(number1);
+        number1 = 3;
+        console.log(number1);
+        myVariable = "ini variableku";
+        console.log(myVariable);
+
+        number1 = number1 + 5;
+        console.log(number1);
+        number1 = number1 - 6;
+        var number2 = number1 * 10;
+        var number3 = number2 / number1; 
+        console.log("number1 = %s, number2 = %s, number3 = %s,", number1, number2, number3);
+
+        var string1 = '10';
+        var string2 = '10';
+        var string3 = string1 + string2;
+        console.log(string3);
+
+        var myInteger = 12;
+        var myLonginteger = 9473742695123;
+        var myFloat = 4.4;
+        var myDouble = 7535645657234.98;
+        var myLongInteger1 = 4766567;
+        var myLongInteger2 = 3875467;
+        var myLongInteger3 = (myLongInteger1 + myLongInteger2);
+        console.log(myLongInteger3);
+
+        var myBoolean1 = true;
+        var myBoolean2 = false;
+
+        if(myBoolean1){
+            console.log('nilai myboolean1 adalah true');
+        }
+        else{
+            console.log('nilai myBoolean1 adalah false');
+        }
+
+        var myArrays = [];
+        var buahbuahan = ['jeruk', 'apel', 'manggis'];
+        buahbuahan[1] = 'semangka';
+        console.log(buahbuahan[2]);
+        console.log(buahbuahan[0]);
+        buahbuahan[2] = 'apel';
+        console.log(buahbuahan[2]);
+        console.log(buahbuahan);
+        buahbuahan.push('rambutan','durian','melon'); // Tambah array ke belakang
+        console.log(buahbuahan);
+        buahbuahan.pop(); // Hapus array dari belakang
+        console.log(buahbuahan);
+        buahbuahan.splice(0,1); // Hapus array dari index 0 sebanyak 1
+        console.log(buahbuahan);
+        buahbuahan.shift(); // Hapus array dari depan
+        console.log(buahbuahan);
+        buahbuahan.unshift('salak'); // Tambah dari depan
+        console.log(buahbuahan);
+        buahbuahan.splice(2, 0, 'pisang'); // Menyisipkan array di index ke dua
+        console.log(buahbuahan);
+        
+        var people = {
+            john: {
+                firstname : 'john',
+                lastname : 'kenedi',
+                fullname : 'john f kenedi',
+                tinggi : 187,
+                umur : 35,
+                berat : 60
+            },
+            billy : {
+                firstname : 'billy',
+                lastname : 'asdf',
+                fullname : 'billy asdf',
+                tinggi : 187,
+                umur : 35,
+                berat : 60
+            }
+        };
+        people.john.berat = 80;
+        people.billy.tinggi = 179;
+
+        people.dani = {
+            firstname : 'dani',
+            lastname : 'abc',
+            fullname : 'dani abc',
+            tinggi : 165,
+            umur : 23,
+            berat : 53
+        };
+        console.log(people);
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
