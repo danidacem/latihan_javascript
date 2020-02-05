@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        Chapter 11: Conditions
+    </title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var animal = 'kitty';
+    var result = (animal === 'kitty') ? 'cute' : 'still nice';
+    console.log(result);
+
+    var umur = 51;
+    var usia = (umur < 50) ? 'ya' : 'tidak';
+    console.log(usia);
+
+    var kondisi = false;
+    var hasil = (kondisi === false) ? 'betul' : 'salah';
+    console.log(hasil);
+
+    var animal2 = 'hello';
+    var result2 = '';
+    if (animal2 === 'kitty') {
+        result2 = 'cute';
+    } else {
+        result2 = 'still nice';
+    }
+    console.log(result2);
+
+    var nilai = prompt('berapa nilai ujian anda?');
+    var grade = '';
+    if (nilai >= 90) {
+        grade = 'A';
+    } else if (nilai >= 80) {
+        grade = 'B+';
+    } else if (nilai >= 70) {
+        grade = 'B'
+    } else if (nilai >= 60) {
+        grade = 'C+';
+    } else if (nilai >= 50) {
+        grade = 'C';
+    } else if (nilai >= 40) {
+        grade = 'D';
+    } else {
+        grade = 'E';
+    }
+    alert(`anda mendapat nilai ${grade}`);
+    
+
+</script>
+
+</html>

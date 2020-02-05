@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>
+        Chapter 7: Strings
+    </title>
+
+</head>
+
+<body>
+
+</body>
+<script>
+    var string1 = "hello";
+    var string2 = 'world';
+    var string3 = `hello world`;
+    var string4 = string1 + ' ' + string2;
+    console.log(string4);
+    var string5 = `${string1} ${string2}`;
+    console.log(string5);
+
+    var profil = {
+        nama: 'dani',
+        asal: 'lombok',
+        umur: 23,
+        pekerjaan: 'mahasiswa',
+        hobi: 'game'
+    };
+    var string6 = `Nama saya adalah ${profil.nama}, saya berasal dari ${profil.asal}, dan umur saya sekarang ${profil.umur}, pekerjaan saya sehari-hari adalah sebagai ${profil.pekerjaan}, dan hobi saya adalah ${profil.hobi}`;
+    console.log(string6);
+    var string7 = 'Nama saya adalah ' + profil.nama + ' saya berasal dari ' + profil.asal;
+    console.log(string7);
+
+    var string8 = 'abcdef'; 
+    var string9 = string8.split('');
+    console.log(string9);
+
+    var string10 = '05/02/2020';
+    var string11 = string10.split('/');
+    console.log(string11);
+    console.log(string11[0]);
+
+</script>
+
+</html>
