@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>latihan DOM</title>
+
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        var isi = prompt("Silahkan isi");
+        var demo = document.getElementById("demo");
+        demo.innerHTML = isi;
+        demo.style = "color:red;";
+
+        var element = document.createElement("p");
+        element.textContent = "hello world";
+        document.body.appendChild(element);    
+    </script>
+</body>
+
+</html>
